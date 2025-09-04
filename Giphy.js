@@ -1,6 +1,4 @@
 
-
-
 $(document).ready(()=>{
 
     $("#submit").click(()=>{
@@ -8,11 +6,6 @@ $(document).ready(()=>{
         alert(userInput)
     })
         $.ajax({
-    url:'api.giphy.com/v1/gifs/search'
-    url:'api.giphy.com/v1/stickers/search'
+            url:"api.giphy.com/v1/gifs/search/?apikey=pCR0lOkznMC9UJnexnpr7moSijsIX80w&"
     })
-    .done(()=>{
-
-    })
-
 })
