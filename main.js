@@ -6,7 +6,5 @@ $(document).ready(()=>{
 
         })
         $.ajax({
-            url:"api.giphy.com/v1/gifs/search?api=[yourkey]&"
-    })
-
+            url:'https://api.giphy.com/v1/gifs/search?api_key={pCR0lOkznMC9UJnexnpr7moSijsIX80w}'
     })
