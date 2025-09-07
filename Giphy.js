@@ -4,8 +4,10 @@ $(document).ready(()=>{
         let userInput = $("#search").val()
         alert(userInput)
         $.ajax({
-            url:'api.giphy.com/v1/gifs/search?apiKey=pCR0lOkznMC9UJnexnpr7moSijsIX80w'
-        })
-        })
+            url:"https.giphy.com/v1/gifs/search?apiKey=pCR0lOkznMC9UJnexnpr7moSijsIX80w&s=big'
+
+    })
+
+    })
         
 })
